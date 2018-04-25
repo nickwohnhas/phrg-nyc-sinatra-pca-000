@@ -98,6 +98,4 @@ Your forms will need to be complex. Your form for a new figure should dynamicall
 
 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG Welcome to NYC Sinatra!</p>
