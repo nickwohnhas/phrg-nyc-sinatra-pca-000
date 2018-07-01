@@ -1,16 +1,19 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
-gem 'sqlite3'
-gem 'sinatra'
-gem 'thin'
-gem 'shotgun'
-gem 'tux'
-gem 'pry'
-gem 'rake'
-gem 'rspec'
-gem 'rack-test'
-gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'
-gem 'capybara'
-gem 'require_all'
+source "https://rubygems.org"
+
+gem "activerecord", require: "active_record"
+gem "capybara"
+gem "pry"
+gem "rack-test"
+gem "rake"
+gem "require_all"
+gem "rspec"
+gem "rubocop"
+gem "shotgun"
+gem "sinatra"
+gem "sinatra-activerecord", require: "sinatra/activerecord"
+gem "sinatra-twitter-bootstrap", require: "sinatra/twitter-bootstrap"
+gem "sqlite3"
+gem "thin"
+gem "tux"

@@ -1,5 +1,6 @@
-class ApplicationController < Sinatra::Base
+# frozen_string_literal: true
 
-  set :views, Proc.new { File.join(root, "../views/") }
+class ApplicationController < Sinatra::Base
+  set(:views, proc { File.join(root, "../views/") })
   register Sinatra::Twitter::Bootstrap::Assets
 end
